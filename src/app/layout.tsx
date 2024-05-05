@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 
 import { Inter } from "next/font/google";
+import Sidebar from "~/components/Sidebar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -20,7 +21,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>{children}</body>
+      <body className={`font-sans ${inter.variable}`}>
+        <div className="flex">
+          <Sidebar />
+          <main className="w-full">
+            {children}
+            </main>
+        </div>
+      </body>
     </html>
   );
 }
