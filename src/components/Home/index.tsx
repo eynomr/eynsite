@@ -1,29 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
-function SectionContainer({children} : {children: React.ReactNode}) {
-  return (
-    <div className='grid items-start grid-cols-12 gap-400 w-full'>
-      {children}
-    </div>
-  )
-}
-
-function SectionTitle({title} : {title: string}) {
-  return (
-      <h4 className='text-neutral-50 text-xs col-span-2 font-bold pt-100 text-right'>
-        {title}
-      </h4>
-  )
-}
-
-function SectionContent({children} : {children: React.ReactNode}) {
-  return (
-    <div className='col-span-10'>
-      {children}
-    </div>
-  )
-}
+import { SectionContainer, SectionContent, SectionTitle } from '../Section'
 
 interface RowProps {
   href: string

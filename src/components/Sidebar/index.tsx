@@ -52,10 +52,10 @@ export default function Sidebar() {
           active: pathname === '/readings',
         },
         {
-          href: '/toolbox',
-          title: 'Toolbox',
+          href: '/skills',
+          title: 'skills',
           leftIcon: <ToolboxIcon />,
-          active: pathname === '/toolbox',
+          active: pathname === '/skills',
         },
       ]
     },
@@ -73,6 +73,7 @@ export default function Sidebar() {
           href: 'https://github.com/eynomr/harf',
           title: 'Harf',
           leftIcon: <HashtagIcon />,
+          rightIcon: <LinkIcon />,
           active: false,
         },
         {
