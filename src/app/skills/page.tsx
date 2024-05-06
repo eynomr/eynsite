@@ -26,7 +26,7 @@ export default function SkillsPage() {
         >
           <div className='prose-sm text-xs lg:text-sm font-mono'>
             <p>
-            I'm experienced with Docker, using it to package my applications into containers. My project, Livy, runs on a Dockerized server managed by Kubernetes on Digital Ocean. I'm still growing my Kubernetes skills. Also, I'm experienced with Git and version control, keeping projects organized and workflows efficient.
+            I&apos;m experienced with Docker, using it to package my applications into containers. My project, Livy, runs on a Dockerized server managed by Kubernetes on Digital Ocean. I&apos;m still growing my Kubernetes skills. Also, I&apos;m experienced with Git and version control, keeping projects organized and workflows efficient.
             </p>
           </div>
         </BentoGridItem>
@@ -37,7 +37,7 @@ export default function SkillsPage() {
         >
           <div className='prose-sm text-xs lg:text-sm font-mono'>
             <p>
-            I build AI applications using LLM models and Langchain's AgentExecutors. I use OpenAI and Langchain in Livy for various functionality such as research and idea generation for students, summarizing/refactoring content for better clarify and understanding. I also use RAG and vectordbs for knowledge retrieval.
+            I build AI applications using LLM models and Langchain&apos;s AgentExecutors. I use OpenAI and Langchain in Livy for various functionality such as research and idea generation for students, summarizing/refactoring content for better clarify and understanding. I also use RAG and vectordbs for knowledge retrieval.
             </p>
           </div>
         </BentoGridItem>
@@ -48,7 +48,7 @@ export default function SkillsPage() {
         >
           <div className='prose-sm text-xs lg:text-sm font-mono'>
             <p>
-              I build end-to-end web applications with modern tools and frameworks. I've used TypeScript and Next.js to create the very website you're looking at now. On the backend, I’m comfortable with Django and Flask, which power my project Livy, making database interactions a breeze with ORM. I also have a good grounding in JavaScript, React, and some Java to round out my toolkit.
+              I build end-to-end web applications with modern tools and frameworks. I&apos;ve used TypeScript and Next.js to create the very website you&apos;re looking at now. On the backend, I&apos;m comfortable with Django and Flask, which power my project Livy, making database interactions a breeze with ORM. I also have a good grounding in JavaScript, React, and some Java to round out my toolkit.
             </p>
           </div>
         </BentoGridItem>
@@ -59,88 +59,3 @@ export default function SkillsPage() {
 }
 
 
-
-
-// <div className='flex flex-col justify-center items-center gap-1600 w-[780px] mx-auto'>
-//       <SectionContainer>
-//         <SectionTitle title='Programming' />
-//         <SectionContent>
-//           <div className="prose text-primary font-mono">
-//             <p>
-//               Python data and backend
-//             </p>
-//             <p>
-//               React and Next.js
-//             </p>
-//             <p>
-//               Typescript and Javascript
-//             </p>
-//           </div>
-//         </SectionContent>
-//       </SectionContainer>
-
-//       <SectionContainer>
-//         <SectionTitle title='Data Engineering' />
-//         <SectionContent>
-//           <div className="prose text-primary font-mono">
-//             <p>
-//               python
-//             </p>
-//           </div>
-//         </SectionContent>
-//       </SectionContainer>
-
-//       <SectionContainer>
-//         <SectionTitle title='SQL' />
-//         <SectionContent>
-//           <div className="prose text-primary font-mono">
-//             <p>
-//               BigQuery
-//             </p>
-//             <p>
-//               Clickhouse
-//             </p>
-//             <p>
-//               MySql
-//             </p>
-//             <p>
-//               Postgres
-//             </p>
-//           </div>
-//         </SectionContent>
-//       </SectionContainer>
-
-//       <SectionContainer>
-//         <SectionTitle title='DAG Tools' />
-//         <SectionContent>
-//           <div className="prose text-primary font-mono">
-//             <p>
-//               Airflow
-//             </p>
-//             <p>
-//               Mage.ai
-//             </p>
-//             <p>
-//               Dagster
-//             </p>
-//           </div>
-//         </SectionContent>
-//       </SectionContainer>
-
-//       <SectionContainer>
-//         <SectionTitle title='Devops' />
-//         <SectionContent>
-//           <div className="prose text-primary font-mono">
-//             <p>
-//               Docker
-//             </p>
-//             <p>
-//               Kubernetes
-//             </p>
-//             <p>
-//               CI/CD
-//             </p>
-//           </div>
-//         </SectionContent>
-//       </SectionContainer>
-//     </div>
