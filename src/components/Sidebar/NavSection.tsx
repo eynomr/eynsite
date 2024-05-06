@@ -6,7 +6,7 @@ interface NavTitleProps {
 
 function NavTitle({title} : NavTitleProps) {
   return (
-    <div className='flex items-center h-800 px-200 w-full'>
+    <div className='flex items-center h-800 lg:px-200 w-full'>
       <h4 className='text-neutral-50 text-xs'>
         {title}
       </h4>

@@ -22,10 +22,12 @@ export default function NavItem({
 
   return (
     <Link href={href}>
-      <div className={`flex rounded-lg items-center justify-center h-800 self-stretch gap-300 px-300 w-full ${isActiveClass} hover:bg-neutral-85`}>
-        {leftIcon && <>{leftIcon}</>}
-        <h4 className='flex-1 text-neutral-10 text-sm'>{title}</h4>
-        <div>
+      <div className={`flex rounded-lg items-center justify-center h-800 self-stretch gap-300 px-100 lg:px-300 w-full ${isActiveClass} hover:bg-neutral-85`}>
+        <div className='hidden lg:block'>
+          {leftIcon && <>{leftIcon}</>}
+        </div>
+        <h4 className='flex-1 text-neutral-10 text-xs lg:text-base'>{title}</h4>
+        <div className='hidden lg:block'>
           {rightIcon && <>{rightIcon}</>}
           {badge && <>{badge}</>}
         </div>

@@ -115,7 +115,7 @@ export default function Sidebar() {
 
 
   return (
-    <div className='min-h-screen h-full w-[256px] bg-neutral-96 pt-200 px-200'>
+    <div className='min-h-screen h-full w-[90px] lg:w-[256px] bg-neutral-96 pt-200 px-200'>
       <div className='flex flex-col gap-600'>
         <SidebarHeader title='Ali Omrani' avatar={<Avatar />}/>
         {sections.map((section, index) => (

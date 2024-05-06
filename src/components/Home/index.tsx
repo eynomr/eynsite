@@ -22,11 +22,11 @@ function Row({
       rel="noopener noreferrer"
       className='flex items-center space-x-400 group'
     >
-      <strong className='font-medium font-mono flex-none group-hover:text-blue-10 group-hover:underline'>
+      <strong className='font-medium font-mono text-xs lg:text-base flex-none group-hover:text-blue-10 group-hover:underline'>
         {title}
       </strong>
-      <span className='w-full border-t border-neutral-85 border-dashed shrink'/>
-      {subtitle && <span className='font-mono font-light text-sm text-nowrap'>{subtitle}</span>}
+      <span className='w-full border-t border-neutral-85 shrink'/>
+      {subtitle && <span className='font-mono text-xs font-light lg:text-sm  text-nowrap'>{subtitle}</span>}
       {date && <span className='font-mono text-neutral-50 text-xs text-nowrap'>{date}</span>}
     </a>
   )
@@ -67,11 +67,11 @@ const connectLinks = [
 
 export default function Home() {
   return (
-    <div className='flex flex-col justify-center items-center gap-1600 w-[780px] mx-auto'>
+    <div className='flex flex-col justify-center items-center lg:gap-1600 gap-800 w-[390px] lg:w-[780px] px-100 lg:mx-auto'>
       <SectionContainer>
         <SectionTitle title='Me'/>
         <SectionContent>
-          <div className="prose text-primary font-mono">
+          <div className="prose font-mono text-xs lg:text-base">
             <p>
               Hey, I&apos;m Ali. I&apos;m Data/Software Engineer. I&apos;m currently working on building {' '}
               <a className="text-blue-10 no-underline" target='_blank' href='https://www.livy.so' rel="noopener noreferrer">Livy</a>, an intelligent learning management system for university students to help them organize and prioritize thei course work and get ideas on how to work on their assignments.

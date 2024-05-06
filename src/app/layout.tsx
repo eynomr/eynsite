@@ -25,8 +25,10 @@ export default function RootLayout({
         <div className="flex">
           <Sidebar />
           <main className="w-full">
-            {children}
-            </main>
+            <div className="w-full dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-neutral-50/[0.2]">
+              {children}
+            </div>
+          </main>
         </div>
       </body>
     </html>
