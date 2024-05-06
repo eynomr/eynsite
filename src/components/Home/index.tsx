@@ -74,7 +74,7 @@ export default function Home() {
           <div className="prose font-mono text-xs lg:text-base">
             <p>
               Hey, I&apos;m Ali. I&apos;m Data/Software Engineer. I&apos;m currently working on building {' '}
-              <a className="text-blue-10 no-underline" target='_blank' href='https://www.livy.so' rel="noopener noreferrer">Livy</a>, an intelligent learning management system for university students to help them organize and prioritize thei course work and get ideas on how to work on their assignments.
+              <a className="text-blue-10 no-underline" target='_blank' href='https://www.livy.so' rel="noopener noreferrer">Livy</a>, an intelligent learning management system for university students to help them organize and prioritize their course work and get ideas on how to work on their assignments.
             </p>
             <p>I&apos;m also working on Harf and Warhol.</p>
             <p>Warhol is an app for anyone with any background (technical or non-technical) to have a digital representation (like this website).</p>

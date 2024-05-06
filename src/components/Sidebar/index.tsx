@@ -25,8 +25,19 @@ export default function Sidebar() {
   const pathname = usePathname();
 
   const sections = [
+    // {
+    //   label:'',
+    //   items: [
+    //     {
+    //       href: '/',
+    //       title: 'Home',
+    //       leftIcon: <HomeIcon />,
+    //       active: pathname === '/',
+    //     },
+    //   ]
+    // },
     {
-      label:'',
+      label: 'Me',
       items: [
         {
           href: '/',
@@ -34,23 +45,18 @@ export default function Sidebar() {
           leftIcon: <HomeIcon />,
           active: pathname === '/',
         },
-      ]
-    },
-    {
-      label: 'Me',
-      items: [
-        {
-          href: '/bookmarks',
-          title: 'Bookmarks',
-          leftIcon: <BookmarkIcon />,
-          active: pathname === '/bookmarks',
-        },
-        {
-          href: '/readings',
-          title: 'Readings',
-          leftIcon: <BookIcon />,
-          active: pathname === '/readings',
-        },
+        // {
+        //   href: '/bookmarks',
+        //   title: 'Bookmarks',
+        //   leftIcon: <BookmarkIcon />,
+        //   active: pathname === '/bookmarks',
+        // },
+        // {
+        //   href: '/readings',
+        //   title: 'Readings',
+        //   leftIcon: <BookIcon />,
+        //   active: pathname === '/readings',
+        // },
         {
           href: '/skills',
           title: 'skills',
